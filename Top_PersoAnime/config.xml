@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ynov.Top_PersoAnime" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Top_PersoAnime</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon src="www/img/logo.png" />
+    <preference name="AutoHideSplashScreen" value="true" /> 
+    <preference name="SplashScreenDelay" value="3000" /> 
+    <preference name="StatusBarBackgroundColor" value="#723E64" />
+    <platform name="android">
+        <splash src="www/img/logos/splash-hdpi.png" density="land-hdpi" />
+        <splash src="www/img/logos/splash-ldpi.png" density="land-ldpi" />
+        <splash src="www/img/logos/splash-mdpi.png" density="land-mdpi" />
+        <splash src="www/img/logos/splash-xhdpi.png" density="land-xhdpi" />
+        <splash src="www/img/logos/splash-xxhdpi.png" density="land-xxhdpi" />
+        <splash src="www/img/logos/splash-xxxhdpi.png" density="land-xxxhdpi" />
+
+        <splash src="www/img/logos/splash-hdpi.png" density="port-hdpi" />
+        <splash src="www/img/logos/splash-ldpi.png" density="port-ldpi" />
+        <splash src="www/img/logos/splash-mdpi.png" density="port-mdpi" />
+        <splash src="www/img/logos/splash-xhdpi.png" density="port-xhdpi" />
+        <splash src="www/img/logos/splash-xxhdpi.png" density="port-xxhdpi" />
+        <splash src="www/img/logos/splash-xxxhdpi.png" density="port-xxxhdpi" /> 
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
